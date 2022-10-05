@@ -25,9 +25,6 @@ Accept Credit card, Debit card, Apple Pay, Google Pay, Bank transfer, Mobile mon
 
 1. Fapshi [API Keys](https://documentation.fapshi.com/dev-tools.html#api-credentials)
 2. [WooCommerce](https://woocommerce.com/)
-3. [WooCommerce Shipping & Tax](https://wordpress.org/plugins/woocommerce-services/)
-4. [Facebook for WooCommerce](https://wordpress.org/plugins/facebook-for-woocommerce/)
-5. [Google Ads & Marketing by Kliken](https://wordpress.org/plugins/kliken-marketing-for-google/)
 6. Supported PHP version: 5.6.0 - 8.1.0
 
 == Installation ==
@@ -52,7 +49,7 @@ Accept Credit card, Debit card, Apple Pay, Google Pay, Bank transfer, Mobile mon
 6.  Click on the __Fapshi__ link from the available Checkout Options
 7. Configure your __Fapshi WooCommerce__ settings accordingly.
 
-For FTP manual installation, [check here](http://codex.wordpress.org/Managing_Plugins#Manual_Plugin_Installation).
+For FTP manual installation, [check here](https://wordpress.org/support/article/managing-plugins).
 
 = Configure the plugin =
 To configure the plugin, go to __WooCommerce > Settings__ from the left menu, click __Checkout__ tab. Click on __Rave__.
