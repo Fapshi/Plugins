@@ -1,7 +1,7 @@
 <p align="center">
 <img src="fapshi-logo.png"
      alt="Markdown Monster icon"
-     style="width: 20%; align: center" /></p>
+     style="margin-top: 1rem; width: 20%; align: center" /></p>
 
 # Fapshi WooCommerce Plugin
 
