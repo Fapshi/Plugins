@@ -28,18 +28,6 @@ Accept Credit card, Debit card, Apple Pay, Google Pay, Bank transfer, Mobile mon
 6. Supported PHP version: 5.6.0 - 8.1.0
 
 == Installation ==
-
-= Automatic Installation =
-*   Login to your WordPress Dashboard.
-*   Click on "Plugins > Add New" from the left menu.
-*   In the search box type __Fapshi Woocommerce__.
-*   Click on __Install Now__ on __Fapshi Woocommerce__ to install the plugin on your site.
-*   Confirm the installation.
-*   Activate the plugin.
-*   Click on "WooCommerce > Settings" from the left menu and click the "Checkout" tab.
-*   Click on the __Fapshi__ link from the available Checkout Options
-*   Configure your __Fapshi Woocommerce__ settings accordingly.
-
 = Manual Installation =
 1.  Download the plugin zip file(https://github.com/Fapshi/Plugins).
 2.  Login to your WordPress Admin. Click on "Plugins > Add New" from the left menu.
