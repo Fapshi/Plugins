@@ -1,78 +1,98 @@
-# Plugins
+<p align="center">
+<img src="fapshi-logo.png"
+     alt="Markdown Monster icon"
+     style="width: 30%; align: center" /></p>
 
-=== Fapshi Payments for WooCommerce ===
+# Fapshi WooCommerce Plugin
 
-Contributors: Fapshi developers
-Tags: fapshi, woocommerce, payments, cameroon, mastercard, visa, amex, francs, payments, discover, donation, church, shop, store, international, mastercard, visa, extension, shopping cart
-Requires at least: 3.1
-Tested up to: 6.0
-Stable tag: 2.3.0
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+## Introduction
 
-The WooCommerce Plugin makes it very easy and quick to add Fapshi Payment option on Checkout for your online store. Accept Credit card, Debit card, Apple Pay, Google Pay, Bank transfer, Mobile money payments and more directly on your store with Fapshi's Plugin for WooCommerce.
+The Fapshi WooCommerce Plugin makes it very easy and quick to add Fapshi Payment option on Checkout for your WordPress websites. Accept Credit card, Debit card, Apple Pay, Google Pay, Bank transfer, Mobile money payments, and more directly on your store with Fapshi's Plugin for WooCommerce.
 
-== Description ==
+Available features include:
 
-Accept Credit card, Debit card, Apple Pay, Google Pay, Bank transfer, Mobile money payments and more directly on your store with the official Fapshi's Plugin for WooCommerce.
+- Collections: Card, Account, Mobile money, Bank Transfers, Apple Pay, Google Pay, WeChat Pay, Ali Pay, Giro Pay.
 
-= Plugin Features =
+## Table of Contents
 
-* Collections: Card, Account, Mobile money, Bank Transfers, Apple Pay, Google Pay, WeChat Pay, Ali Pay, Giro Pay.
+1. [Requirements](#requirements)
+2. [Installation](#installation)
+3. [Best Practices](#best-practices)
+4. [Support](#support)
+5. [Frequently Asked Questions](#frequently-asked-questions)
 
+## Requirements
 
-= Requirements =
-
-1. Fapshi [API Keys](https://documentation.fapshi.com/dev-tools.html#api-credentials)
+1. Fapshi [API Keys](https://documentation.fapshi.com/dev-tools.html/#api-credentials)
 2. [WooCommerce](https://woocommerce.com/)
-6. Supported PHP version: 5.6.0 - 8.1.0
+3. Supported PHP version: 5.6.0 - 8.1.0
 
-== Installation ==
-= Manual Installation =
-1.  Download the plugin zip file(https://github.com/Fapshi/Plugins).
-2.  Login to your WordPress Admin. Click on "Plugins > Add New" from the left menu.
-3.  Click on the "Upload" option, then click "Choose File" to select the zip file you downloaded. Click "OK" and "Install Now" to complete the installation.
-4.  Activate the plugin.
-5.  Click on "WooCommerce > Settings" from the left menu and click the "Checkout" tab.
-6.  Click on the __Fapshi__ link from the available Checkout Options
-7. Configure your __Fapshi WooCommerce__ settings accordingly.
+#### Recommended Requirements
 
-For FTP manual installation, [check here](https://wordpress.org/support/article/managing-plugins).
+- Latest WordPress version.
+- PHP version 5.6 or greater.
+- MySQL version 5.6 or greater.
 
-= Configure the plugin =
-To configure the plugin, go to __WooCommerce > Settings__ from the left menu, click __Checkout__ tab. Click on __Rave__.
+## Installation
 
-* __Enable/Disable__ - check the box to enable Fapshi Payment Gateway.
+<!-- ### Automatic Installation
 
+- Login to your WordPress Dashboard.
+- Click on "Plugins > Add New" from the left menu.
+- In the search box type **Rave Woocommerce Payment Gateway**.
+- Click on **Install Now** on **Rave Woocommerce Payment Gateway** to install the plugin on your site.
+- Confirm the installation.
+- Activate the plugin.
+- Click on "WooCommerce > Settings" from the left menu and click the **"Payments"** tab.
+- Click on the **Rave** link from the available Checkout Options
+- Configure your **Rave Payment Gateway** settings accordingly. -->
 
+### Manual Installation
 
-= Best Practices =
+- Download [this repo](https://github.com/Fapshi/Plugins) and extract the plugin zip file.
+- Login to your WordPress Admin dashboard. Click on **Plugins > Add New** from the left menu.
+- Click on the **Upload** button, then click **Choose File** to select the zip file you downloaded from this repo. Click **OK** and **Install Now** to complete the installation.
+- Activate the plugin.
+- On the left menu, Click on **WooCommerce > Settings** and click the **Payments** tab.
+- Click on **Fapshi** from the available Checkout Options.
+- Configure your **Fapshi WooCommerce** settings accordingly.
 
-1. When in doubt about a transaction, always check the Fapshi Dashboard to confirm the status of a transaction.
-2. Always ensure you keep your API keys securely and privately. Do not share with anyone
-4. Always ensure you install the most recent version of the Fapshi's Wordpress plugin
+## Configuring the Plugin
 
+You can configure the plugin for these:
 
-= Support =
+- Enable/disable the Fapshi Payment Gateway.
+- Enable/disable test mode (go live).
+- Accept only card payments.
 
-For additional assistance using this library, contact the developer experience (DX) team via [email](mailto:developers@fapshi.com) or on [slack](https://fapshicommunity.slack.com). 
+To achieve any of these, click on their appropriate checkboxes.
+
+## Best Practices
+
+- When in doubt about a transaction, always check the Fapshi Dashboard to confirm the status of a transaction.
+- Always ensure you keep your API keys securely and privately. Do not share them with anyone!
+- Always ensure you install the most recent version of the Fapshi WooCommerce plugin.
+
+## Support
+
+For additional assistance using this plugin, contact the developer experience (DX) team via [email](mailto:developers@fapshi.com) or on [slack](https://fapshicommunity.slack.com).
 
 You can also follow us [@fapshi](https://twitter.com/fapshi) and let us know what you think 😊.
 
-== Frequently Asked Questions ==
+## Frequently Asked Questions
 
-= What Do I Need To Use The Plugin =
+##### 1. What do I need to use the plugin?
 
-1. You need to open an account on [Fapshi](https://dashboard.fapshi.com)
+You need a [Fapshi account](https://dashboard.fapshi.com/register) and we strongly advise you activate the account.
 
-= Recommended Requirements =
+##### 2. Is the plugin free?
 
-* Latest WordPress version.
-* PHP version 5.6 or greater.
-* MySQL version 5.6 or greater.
+Yes, the plugin is free.
 
-== Screenshots ==
+##### 3. What are the pricing fees for transactions?
 
+Visit our pricing page here [Fapshi Pricing & Fees](https://fapshi.com/pricing) for details. You can also use the [Pricing calculator](https://fapshi.com/pricing/#pricingCalculator) to understand how you'll be billed.
 
+## Are you writing custom code?
 
-== Other Notes ==
+Check our [API documentation](https://documentation.fapshi.com/dev-tools.html) for more information about integrating the API manually.
