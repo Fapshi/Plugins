@@ -23,7 +23,7 @@ Available features include:
 
 ## Requirements
 
-1. Fapshi [API Keys](https://documentation.fapshi.com/dev-tools.html/#api-credentials)
+1. Fapshi [API Keys](https://documentation.fapshi.com/dev-tools.html#api-credentials)
 2. [WooCommerce](https://woocommerce.com/)
 3. Supported PHP version: 5.6.0 - 8.1.0
 
