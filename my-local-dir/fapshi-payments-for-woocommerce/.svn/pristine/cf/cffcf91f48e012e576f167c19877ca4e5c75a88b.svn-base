@@ -62,7 +62,7 @@ function fapshi_init_gateway_class() {
         $plugin_dir = plugin_dir_url(__FILE__);
 
 		    $this->id = 'fapshi'; // payment gateway plugin ID
-        // $this->icon = apply_filters( 'woocommerce_gateway_icon', $plugin_dir.'assets/img/options.png' ); // URL of the icon that will be displayed on checkout page near your gateway name
+        $this->icon = apply_filters( 'woocommerce_gateway_icon', $plugin_dir.'assets/options.png' );; // URL of the icon that will be displayed on checkout page near your gateway name
         $this->has_fields = false; // in case you need a custom credit card form
         $this->method_title = 'Fapshi';
         $this->method_description = 'Accept credit cards, debit cards, Apple pay, Google pay and Mobile money payments.'; 
@@ -94,13 +94,6 @@ function fapshi_init_gateway_class() {
         
         // You can also register a webhook here
         add_action( 'woocommerce_api_wc_fapshi_gateway', array( $this, 'webhook' ) );
-      }
-
-    public function get_icon() {
-        $icon_url  = plugin_dir_url( __FILE__ ) . 'assets/img/payment-option.png';
-        $icon_html = sprintf('<img src="%s" alt="%s" />', $icon_url, $this->method_title );
-    
-        return apply_filters( 'woocommerce_gateway_icon', $icon_html, $this->id );
       }
 
  		public function init_form_fields(){
