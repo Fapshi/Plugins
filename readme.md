@@ -6,12 +6,9 @@ The **Fapshi WooCommerce Plugin** makes it quick and easy to add Fapshi as a pay
 
 **Available features include:**
 
+- MTN mobile money
+- Orange Money
 - Card payments
-- Account payments
-- Mobile money
-- Bank transfers
-- Apple Pay & Google Pay
-- WeChat Pay, AliPay, GiroPay
 
 ---
 
