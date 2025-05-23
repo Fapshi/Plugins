@@ -1,120 +1,106 @@
-# Fapshi Payments for WooCommerce
+# Fapshi Payments Plugin for WooCommerce
 
-**Contributors:** Fapshi developers  
-**Tags:** fapshi, woocommerce, payments, cameroon, mastercard, visa, amex, francs, discover, apple pay, google pay  
-**Requires at least:** 3.1  
-**Tested up to:** 6.0  
-**Stable tag:** 1.0.0  
-**License:** GPLv2 or later  
-**License URI:** [http://www.gnu.org/licenses/gpl-2.0.html](http://www.gnu.org/licenses/gpl-2.0.html)
+## Introduction
 
-Accept Credit card, Debit card, Apple Pay, Google Pay, Bank transfer, Mobile money payments and more directly on your store with Fapshi's Plugin for WooCommerce.
+The **Fapshi WooCommerce Plugin** makes it quick and easy to add Fapshi as a payment option at checkout for your WordPress store. Accept credit cards, debit cards, Apple Pay, Google Pay, bank transfers, mobile money, and more.
 
----
+**Available features include:**
 
-## Description
-
-The WooCommerce Plugin makes it very easy and quick to add the **Fapshi Payment option** on Checkout for your online store. Accept Credit card, Debit card, Apple Pay, Google Pay, Bank transfers, Mobile money, and more using Fapshi.
+- Card payments
+- Account payments
+- Mobile money
+- Bank transfers
+- Apple Pay & Google Pay
+- WeChat Pay, AliPay, GiroPay
 
 ---
 
-## Plugin Features
+## Table of Contents
 
-- Collections:  
-  - Card  
-  - Account  
-  - Mobile Money  
-  - Bank Transfers  
-  - Apple Pay  
-  - Google Pay  
-  - WeChat Pay  
-  - AliPay  
-  - GiroPay
+1. [Requirements](#requirements)
+2. [Installation](#installation)
+3. [Configuring the Plugin](#configuring-the-plugin)
+4. [Best Practices](#best-practices)
+5. [Support](#support)
+6. [Frequently Asked Questions](#frequently-asked-questions)
 
 ---
 
 ## Requirements
 
-1. [Fapshi API Keys](https://documentation.fapshi.com/dev-tools.html#api-credentials)  
-2. [WooCommerce](https://woocommerce.com/)  
-3. [WooCommerce Shipping & Tax](https://wordpress.org/plugins/woocommerce-services/)  
-4. [Facebook for WooCommerce](https://wordpress.org/plugins/facebook-for-woocommerce/)  
-5. [Google Ads & Marketing by Kliken](https://wordpress.org/plugins/kliken-marketing-for-google/)  
-6. Supported PHP version: 5.6.0 - 8.1.0
+- [Fapshi API Keys](https://documentation.fapshi.com/dev-tools.html#api-credentials)  
+- [WooCommerce](https://woocommerce.com/)  
+- PHP version: 5.6.0 - 8.1.0  
+
+### Recommended
+
+- Latest WordPress version  
+- PHP 5.6 or greater  
+- MySQL 5.6 or greater  
 
 ---
 
 ## Installation
 
-### Automatic Installation
-
-1. Login to your WordPress Dashboard.  
-2. Go to **Plugins > Add New**.  
-3. In the search box, type `Fapshi WooCommerce`.  
-4. Click on **Install Now** next to the plugin.  
-5. Confirm and **Activate** the plugin.  
-6. Navigate to **WooCommerce > Settings > Payments** tab.  
-7. Click on **Fapshi** from the list of payment options.  
-8. Configure your settings.
-
 ### Manual Installation
 
-1. Download the plugin from [GitHub](https://github.com/Fapshi/Plugins).  
-2. Login to your WordPress Admin. Go to **Plugins > Add New**.  
-3. Click **Upload Plugin**, then **Choose File** and select the downloaded `.zip` file.  
-4. Click **Install Now**, then **Activate** the plugin.  
-5. Go to **WooCommerce > Settings > Payments** and select **Fapshi** to configure.
-
-_For FTP installation instructions, refer to the [WordPress Codex](http://codex.wordpress.org/Managing_Plugins#Manual_Plugin_Installation)._
+1. Download the plugin from [this GitHub repository](https://github.com/Fapshi/Plugins).
+2. Log into your WordPress Admin dashboard.
+3. Navigate to **Plugins > Add New**, then click **Upload Plugin**.
+4. Choose the downloaded ZIP file, then click **Install Now** and **Activate**.
+5. Go to **WooCommerce > Settings > Payments**.
+6. Click on **Fapshi** from the available checkout options.
+7. Configure your **Fapshi WooCommerce** settings accordingly.
 
 ---
 
-## Configuration
+## Configuring the Plugin
 
-1. Navigate to **WooCommerce > Settings > Payments**.  
-2. Click on **Fapshi**.  
-3. Enable/disable the gateway, enter your API keys, and adjust settings to your needs.
+Available configuration options:
+
+- Enable or disable the Fapshi payment gateway
+- Toggle between test mode and live mode
+- Accept only card payments
+
+Use the checkboxes on the settings page to enable or disable each option as needed.
 
 ---
 
 ## Best Practices
 
-- Always verify transactions via your Fapshi Dashboard.
-- Keep your API keys secure.
-- Ensure your plugin is always up to date.
+- Always confirm transactions using your Fapshi Dashboard.
+- Keep your API keys secure and private.
+- Update to the latest version of the plugin regularly.
 
 ---
 
 ## Support
 
-Need help? Contact the Developer Experience team:  
+Need help?
+
 - 📧 [developers@fapshi.com](mailto:developers@fapshi.com)  
-- 💬 [Fapshi Slack](https://fapshicommunity.slack.com)  
-- 🐦 Follow us on [Twitter @fapshi](https://twitter.com/fapshi)
+- 💬 [Fapshi Community Slack](https://fapshicommunity.slack.com)  
+- 🐦 Follow [@fapshi on Twitter](https://twitter.com/fapshi)
 
 ---
 
 ## Frequently Asked Questions
 
-### What Do I Need To Use The Plugin?
+#### 1. What do I need to use the plugin?
 
-1. A [Fapshi account](https://dashboard.fapshi.com)
+A [Fapshi account](https://dashboard.fapshi.com/register). Make sure to activate your account.
 
-### Recommended Environment
+#### 2. Is the plugin free?
 
-- Latest WordPress version  
-- PHP version 5.6 or higher  
-- MySQL version 5.6 or higher
+Yes, it's 100% free.
 
----
+#### 3. What are the pricing fees?
 
-## Screenshots
-
-*(Add screenshots if available)*
+Check out our [Pricing & Fees](https://fapshi.com/pricing) page, or use the [Pricing Calculator](https://fapshi.com/pricing/#pricingCalculator) for accurate billing insights.
 
 ---
 
-## Other Notes
+## Are You Writing Custom Code?
 
-- Contributions are welcome on the [GitHub repository](https://github.com/Fapshi/Plugins).
+Visit the [Fapshi API Documentation](https://documentation.fapshi.com/dev-tools.html) for advanced manual integration options.
 
